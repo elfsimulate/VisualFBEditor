@@ -74,10 +74,9 @@ if exist %cdir%!cpl! (move %cdir%!cpl! %cdir%VisualFBEditor)
 
 :ModifyConfig
 
-CALL :diyconfig 32
+call :diyconfig 32
 call :diyconfig 64
 
-goto endbat
 
 
 :endbat
